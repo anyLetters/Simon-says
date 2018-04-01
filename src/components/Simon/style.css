@@ -1,0 +1,62 @@
+.circle {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px;
+  background: #F5F5F5;
+  border: 6px solid #F5F5F5;
+  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.7); }
+
+.defeat {
+  position: absolute;
+  font-size: 18px;
+  margin-top: -40px;
+  margin-left: 67px; }
+
+.green, .red, .yellow, .blue {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  opacity: 0.5;
+  box-sizing: border-box; }
+
+.upper-halfcircle, .lower-halfcircle {
+  display: flex; }
+
+.green {
+  clip-path: circle(100% at 100% 100%);
+  background: #81C784;
+  border-radius: 150px 0px 0px 0px; }
+
+.red {
+  clip-path: circle(100% at 0 100%);
+  background: #e57373;
+  border-radius: 0px 150px 0px 0px; }
+
+.yellow {
+  clip-path: circle(100% at 100% 0);
+  background: #FFF176;
+  border-radius: 0px 0 0 150px; }
+
+.blue {
+  clip-path: circle(100% at 0 0);
+  background: #64B5F6;
+  border-radius: 0px 0px 150px 0px; }
+
+.light {
+  opacity: 1; }
+
+.play-button {
+  font-size: 30px;
+  font-weight: 300;
+  position: absolute;
+  margin-top: 50px; }
+  .play-button:active {
+    color: #616161; }
+
+.active:active {
+  opacity: 1; }

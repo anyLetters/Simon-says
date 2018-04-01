@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+* {
+  font-family: 'Roboto';
+  color: #9E9E9E;
+}
+
+input {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+p {
+  font-size: 26px;
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

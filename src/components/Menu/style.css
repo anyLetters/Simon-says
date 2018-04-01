@@ -1,0 +1,7 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.round {
+  text-align: left; }
